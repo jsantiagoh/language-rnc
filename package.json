@@ -1,10 +1,10 @@
 {
   "name": "language-rnc",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "RelaxNG Compact package",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/language-rnc",
+  "repository": "https://github.com/jsantiagoh/language-rnc",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
