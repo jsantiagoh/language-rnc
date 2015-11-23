@@ -1,0 +1,26 @@
+".source.rnc":
+  attribute:
+    prefix: "a"
+    body: "attribute ${1:name} { ${0:text} }"
+  "element with newline":
+    prefix: "ee"
+    body: '''
+      element ${1:name} {
+      	$0
+      }
+    '''
+  element:
+    prefix: "e"
+    body: "element ${1:name} { ${0:text} }"
+  "xsd:dateTime":
+    prefix: "xd"
+    body: "xsd:dateTime"
+  "xsd:decimal":
+    prefix: "xdec"
+    body: "xsd:decimal"
+  "xsd:integer":
+    prefix: "xi"
+    body: "xsd:integer"
+  "xsd:string":
+    prefix: "xs"
+    body: "xsd:string"
